@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins";
+  background-color: #ba4949;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.pomodoro {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-block: 20px 60px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+}
+
+#taskInput {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+}
+
+#taskInput::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#addTaskBtn {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgb(186, 73, 73);
+  font-weight: bold;
+  width: 100px;
+  background-color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+#timer {
+  font-size: 120px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+#startBtn {
+  cursor: pointer;
+  border: none;
+  padding: 0px 12px;
+  border-radius: 4px;
+  box-shadow: rgb(235, 235, 235) 0px 6px 0px;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(186, 73, 73);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+#taskList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
